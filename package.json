@@ -1,22 +1,19 @@
 {
   "name": "7-1-regex",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/2hkr772ma7ol9gyp?svg=true)](https://ci.appveyor.com/project/Gto1103/ajs-5-1)",
   "main": "index.js",
   "scripts": {
 	"build": "webpack --mode production",
-   "start": "webpack-dev-server --mode development",
-   "test": "jest",
-   "coverage": "jest --coverage",
-   "lint": "eslint ."
-  },
+	"start": "webpack-dev-server --mode development",
+	"test": "jest",
+	"coverage": "jest --coverage",
+	"lint": "eslint ."
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gto1103/7-1-regex.git"
   },
-  "keywords": [
-    "regex"
-  ],
   "author": "Gto1103",
   "license": "ISC",
   "bugs": {
@@ -38,7 +35,8 @@
     "jest": "^29.0.3",
     "mini-css-extract-plugin": "^2.6.1",
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
     "core-js": "^3.25.2"
